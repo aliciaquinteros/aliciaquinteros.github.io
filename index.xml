@@ -15,7 +15,7 @@
       <guid>/post/2020/12/04/test-post/</guid>
       <description> Welcome! Here are two links Link to project 1
 Link to google
-hist(quakes$mag) r.quakes.mag.mean() ## 4.6204000000000001   </description>
+hist(quakes$mag) r.quakes.mag.mean() ## 4.6204000000000001    </description>
     </item>
     
     <item>
