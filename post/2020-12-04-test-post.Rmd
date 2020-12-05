@@ -23,3 +23,4 @@ hist(quakes$mag)
 r.quakes.mag.mean()
 ```
 ![](/post/2020-12-04-test-post_files/kid2.JPG)
+
