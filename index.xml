@@ -8,14 +8,15 @@
     <language>en-US</language>
     <lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Quakes</title>
+      <title>Test Post</title>
       <link>/post/2020/12/04/test-post/</link>
       <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/2020/12/04/test-post/</guid>
-      <description> Welcome! Here are two links Link to project 1
+      <description>Welcome! Here are two links to project 1 and google: Link to project 1
 Link to google
-hist(quakes$mag) r.quakes.mag.mean() ## 4.6204000000000001    </description>
+Using R-Studio, we can create different types of graphs used for analysis. Down below we have a histogram we created by using the code &amp;quot;hist&amp;quot;. Then we used reticulate to have r and python talk to one another as seen below.
+hist(quakes$mag) library(reticulate) something &amp;lt;- &amp;quot;Using Reticulate&amp;quot; quakes &amp;lt;- quakes dumb=&amp;quot;Is Difficult&amp;quot; print(r.</description>
     </item>
     
     <item>

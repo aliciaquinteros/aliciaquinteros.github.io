@@ -7,7 +7,7 @@
     <meta name="author" content="Alicia Quinteros" />
     
     <link rel="shortcut icon" type="image/x-icon" href="../../../../../img/favicon.ico">
-    <title>Quakes</title>
+    <title>Test Post</title>
     <meta name="generator" content="Hugo 0.79.0" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../../../../../css/main.css" />
@@ -54,7 +54,7 @@
       <div class="container">
         <div class="blog-post">
           <h3>
-            <strong><a href="../../../../../post/2020/12/04/test-post/">Quakes</a></strong>
+            <strong><a href="../../../../../post/2020/12/04/test-post/">Test Post</a></strong>
           </h3>
         </div>
  
@@ -74,14 +74,19 @@
 
 <div id="welcome" class="section level1">
 <h1>Welcome!</h1>
-<div id="here-are-two-links" class="section level5">
-<h5>Here are two links</h5>
+<div id="here-are-two-links-to-project-1-and-google" class="section level5">
+<h5>Here are two links to project 1 and google:</h5>
 <p><a href="../../../../../project1/">Link to project 1</a></p>
 <p><a href="https://www.google.com">Link to google</a></p>
-<pre class="r"><code>hist(quakes$mag)</code></pre>
+<p>Using R-Studio, we can create different types of graphs used for analysis. Down below we have a histogram we created by using the code &quot;hist&quot;. Then we used reticulate to have r and python talk to one another as seen below.</p>
+<pre class="r"><code>hist(quakes$mag)
+library(reticulate)</code></pre>
 <p><img src="../../../../../post/2020-12-04-test-post_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
-<pre class="python"><code>r.quakes.mag.mean()</code></pre>
-<pre><code>## 4.6204000000000001</code></pre>
+<pre class="r"><code>something &lt;- &quot;Using Reticulate&quot;
+quakes &lt;- quakes</code></pre>
+<pre class="python"><code>dumb=&quot;Is Difficult&quot;
+print(r.something,dumb)</code></pre>
+<pre><code>## Using Reticulate Is Difficult</code></pre>
 <div class="figure">
 <img src="../../../../../post/2020-12-04-test-post_files/kid2.JPG" />
 

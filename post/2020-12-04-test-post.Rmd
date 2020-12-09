@@ -1,5 +1,5 @@
 ---
-title: Quakes
+title: Test Post
 author: ''
 date: '2020-12-04'
 slug: test-post
@@ -9,20 +9,26 @@ description: ''
 ---
 
 # Welcome!
-##### Here are two links 
+##### Here are two links to project 1 and google: 
 
 [Link to project 1](/project1/)
 
 [Link to google](https://www.google.com)
 
 
-
+Using R-Studio, we can create different types of graphs used for analysis. Down below we have a histogram we created by using the code "hist". Then we used reticulate to have r and python talk to one another as seen below. 
 ```{r}
 hist(quakes$mag)
+library(reticulate)
+something <- "Using Reticulate"
+quakes <- quakes
 ```
 
 ```{python}
-r.quakes.mag.mean()
+dumb="Is Difficult"
+print(r.something,dumb)
 ```
+
+
 ![](/post/2020-12-04-test-post_files/kid2.JPG)
 
