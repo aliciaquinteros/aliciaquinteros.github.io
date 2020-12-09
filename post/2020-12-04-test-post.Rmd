@@ -1,5 +1,5 @@
 ---
-title: Test Post
+title: Quakes
 author: ''
 date: '2020-12-04'
 slug: test-post
@@ -14,6 +14,8 @@ description: ''
 [Link to project 1](/project1/)
 
 [Link to google](https://www.google.com)
+
+
 
 ```{r}
 hist(quakes$mag)
