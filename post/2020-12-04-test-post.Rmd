@@ -1,5 +1,5 @@
 ---
-title: Test Post
+title: R and Python Post
 author: ''
 date: '2020-12-04'
 slug: test-post
